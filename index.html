@@ -1,12 +1,91 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Hello</title>
-  </head>
-  <body>
-    <center>
-      <h1>Hello world</h1>
-      <h3>This is Hemanth</h3>
-    </center>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            text-align: right;
+        }
+
+        header h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background: #0066ff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background: #0052cc;
+            transform: scale(1.1);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hemanth Vudumula</h1>
+        <p>+91 9030710155</p>
+        <p>vudumulahemanth@gmail.com</p>
+    </header>
+    <main>
+        <h1>WELCOME</h1>
+        <div class="button-container">
+            <a href="http://35.192.111.244:8080" target="_blank">Jenkins</a>
+            <a href="http://35.192.111.244:3000" target="_blank">Grafana</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hemanth Vudumula</p>
+    </footer>
+</body>
 </html>
